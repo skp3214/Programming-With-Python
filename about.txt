@@ -1,0 +1,3 @@
+Hello my name is sachin prajapati.
+Currently I am pursuing my btech in computer science and engineering.
+My tech skills are c++,java,python.
