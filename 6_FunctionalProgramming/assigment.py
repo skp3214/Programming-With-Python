@@ -10,7 +10,7 @@ employee_list = [
 
 # Function to be passed to the map() function. Do not change this.
 def mod(employee_list):
-   temp = employee_list['name'] + "_" + employee_list["department"]
+   temp = employee_list['name'] + " " + employee_list["department"]
    return temp
 
 def to_mod_list(employee_list):
