@@ -11,8 +11,11 @@ class Supervisors(Employees):
 class Chef(Employees):
     def leave_request(self,days):
         return "May I take a leave for"+str(days)+"days"
+    def my_info(self):
+        print(self.name,self.last)
 
 # Testing the code
 sachin = Supervisors("John", "Doe", "123")
 sameer=Chef("Sameer","Srivastava")
 print(sameer.leave_request(3))
+sameer.my_info()
