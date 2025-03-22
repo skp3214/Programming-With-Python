@@ -1,0 +1,17 @@
+import pandas as pd
+
+data = pd.read_excel(r'd:\Lovely Professional University\Educational\Programming-With-Python\data.xls')
+# print(data)
+# print(data.head())
+# print(data.tail())
+# print(data.columns)
+# print(data.index)
+# print(data.shape) 
+# print(data.info())
+# print(data.describe())
+# print(data.isnull().sum())
+# print(data['Name'])
+# print(data['Name'].head())
+# print(data[['Name', 'Stream']])
+# print(data[['Name', 'Stream']].head())
+print(data[data['Stream'] == 'MCA'])
