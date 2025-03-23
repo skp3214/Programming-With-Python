@@ -3,7 +3,8 @@ class MyFirstClass():
     index = "Author-Book"
 
     def hand_list(self, philosopher, book):
-        print(MyFirstClass.index)
+        # print(MyFirstClass.index)
+        print(self.index)
         print(philosopher + " wrote the book: " + book)
 
 whodunnit = MyFirstClass()
